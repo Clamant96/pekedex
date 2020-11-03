@@ -1,0 +1,402 @@
+/*COTAINER*/
+#container {
+    width: 100%;
+    height: auto;
+
+}
+
+#container #page {
+    padding: 1%;
+    width: 98%;
+    min-height: 20vh;
+
+    background-color: var(--background-header);
+
+    background-image: url("../../img/background_header.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/*HEADER*/
+#container #page #header {
+    /*background-color: burlywood;*/
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #page #header h1 {
+    padding: 2%;
+    width: 96%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    color: var(--text-header);
+
+}
+
+#container #page #header #inputSearch {
+    padding: 1%;
+
+    width: 48%;
+    height: auto;
+
+    /*background-color: cadetblue;*/
+
+    text-align: center;
+
+}
+
+
+#container #page #header #inputSearch input {
+    padding: 1.5%;
+
+    width: 47%;
+    height: auto;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: var(--input-gray);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: width, .5s;
+
+}
+
+#container #page #header #inputSearch input:hover {
+    width: 98%;
+
+    border: none;
+
+}
+
+/*SECTION*/
+#container #section {
+    /*background-color: cadetblue;*/
+
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*SECTION - CARD*/
+#container #section #card {
+    padding: 1%;
+    width: 15%;
+    height: auto;
+
+    /*background-color: chartreuse;*/
+    background-color: var(--background-header);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid #262626;
+
+}
+
+/*SECTION - CARD h1*/
+#container #section #card h1 {
+    width: 100%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: var(--text-header);
+
+    text-transform: uppercase;
+
+}
+
+/*SECTION - CARD IMG*/
+#container #section #card #imgCard {
+    width: 100%;
+    height: auto;
+
+    /*background-color: chocolate;*/
+
+}
+
+#container #section #card #imgCard img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*SECTION - CARD LISTA TIPO*/
+#container #section #card #tipoEspecie {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-header);
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+#container #section #card #tipoEspecie h1 {
+    width: 100%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #section #card #tipoEspecie p {
+    margin: 1%;
+    padding: 1%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    background-color: var(--background-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*SECTION - CARD LISTA HABILIDADES*/
+#container #section #card #listHabilidades {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    color: var(--text-header);
+
+}
+
+#container #section #card #listHabilidades h1 {
+    width: 100%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #section #card #listHabilidades #listHabilidadesP {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #section #card #listHabilidades #listHabilidadesP p {
+    margin: 1%;
+    padding: 1%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    background-color: var(--background-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*SECTION - CARD LISTA STATUS*/
+#container #section #card #stats {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    color: var(--text-header);
+
+}
+
+#container #section #card #stats #statsHpVeloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+}
+
+#container #section #card #stats #statsHpVeloc h1 {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #section #card #stats #statsHpVeloc p {
+    margin: 1%;
+    padding: 1%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    background-color: var(--background-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #section #card #stats #statsPoder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+}
+
+#container #section #card #stats #statsPoder h1 {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #section #card #stats #statsPoder p {
+    margin: 1%;
+    padding: 1%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    background-color: var(--background-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #section #card #stats #statsPerfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+}
+
+#container #section #card #stats #statsPerfil h1 {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #section #card #stats #statsPerfil p {
+    margin: 1%;
+    padding: 1%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    background-color: var(--background-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

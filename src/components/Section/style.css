@@ -1,0 +1,23 @@
+.containerSection {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+}
+
+.containerSection .conteudoSection {
+    padding: 1%;
+    width: 78%;
+    height: auto;
+
+    background-color: var(--baclground-section);
+
+    border-radius: 10px;
+
+}
+
